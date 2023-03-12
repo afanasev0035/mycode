@@ -214,7 +214,7 @@ int main()
             if (FIRST_ANCII_CODE <= char_code && char_code <= LAST_ANCII_CODE)
             {
                 printf("%c", char_code);
-            }
+            }        
         }
     }
     return 0;

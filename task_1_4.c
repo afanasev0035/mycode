@@ -195,7 +195,7 @@ int main()
               "которая соответствует максимальной цифре, заменить числа в строке символами с кодами, полученными\n"
               "из этих чисел. Пример: aaa010101bbb343ccc – двоичная и пятиричная системы счисления.");
     printf("\nInput string: ");
-    fgets(input_string, MAX_STR_LEN, stdin); 
+    fgets(input_string, MAX_STR_LEN, stdin);
 
     printf("Result string: ");
     while(*ptr_char != 0)
@@ -233,8 +233,8 @@ int zamena (int x, int y){
         printf("%d", x % y); 
     } 
     else { 
-        zamena (x / y, y); 
-        printf("%d", x % y); 
+        zamena (x / y, y);
+        printf("%d", x % y);
     } 
 } 
  
